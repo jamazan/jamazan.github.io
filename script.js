@@ -2903,7 +2903,7 @@ const myQuestions = [
     } */
 ];
 
-const shuffledQuestions = getRandomQuestions(myQuestions, 60); // Get 60 random questions
+const shuffledQuestions = getRandomQuestions(myQuestions, 6); // Get 60 random questions
 
 let timeLeft = 60 * 60; // Initial time in seconds (60 minutes)
 let timerInterval;
@@ -3055,6 +3055,7 @@ startButton.addEventListener('click', () => {
     QuestionReset();
     startButton.style.display = 'none';
 });
+
 
 
 
