@@ -3031,6 +3031,9 @@ function showResults() {
     restartButton.style.display = 'inline-block';
 }
 
+// 8. Add event listeners
+submitButton.addEventListener('click', checkAnswer);
+nextButton.addEventListener('click', nextQuestion);
 restartButton.addEventListener('click', () => {
     currentQuestionIndex = 0;
     myQuestionCount = 0;
@@ -3046,15 +3049,12 @@ restartButton.addEventListener('click', () => {
     loadQuestion();
 });
 
-// 8. Add event listeners
-submitButton.addEventListener('click', checkAnswer);
-nextButton.addEventListener('click', nextQuestion);
 startButton.addEventListener('click', () => {
     startTimer();
     loadQuestion();
     QuestionReset();
     startButton.style.display = 'none';
-
 });
+
 
 
