@@ -3028,6 +3028,7 @@ function showResults() {
     } else {
         document.getElementById('results').innerHTML = `Your score is ${finalResultsRounded}% You did not pass. Please try again.`;
     }
+    restartButton.style.display = 'inline-block';
 }
 
 restartButton.addEventListener('click', () => {
@@ -3055,4 +3056,5 @@ startButton.addEventListener('click', () => {
     startButton.style.display = 'none';
 
 });
+
 
