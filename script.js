@@ -1206,7 +1206,7 @@ const myQuestions = [
         options: {
             a: "KPI Base Searches define the calculations and metrics for measuring service performance.",
             b: "KPI Base Searches are responsible for generating visualizations within Glass Tables.",
-            c: "",
+            c: "KPI Base Searches can be embedded in external web pages.",
             d: "KPI Base Searches provide statistical baselining and anomaly detection."
         },
         correctAnswer: "a",
@@ -3037,4 +3037,5 @@ startButton.addEventListener('click', () => {
     loadQuestion();
     QuestionReset();
     startButton.style.display = 'none';
+
 });
