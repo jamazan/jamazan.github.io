@@ -2922,6 +2922,7 @@ const resultsContainer = document.getElementById('results');
 const startButton = document.getElementById('start-quiz');
 const questionNumberElement = document.getElementById('question-number');
 const timerButton = document.getElementById('timer-button');
+const restartButton = document.getElementById('restartQuizButton');
 
 
 // 3. Function to start a countdown timer for the quiz and submit when time runs out.
@@ -3029,6 +3030,21 @@ function showResults() {
     }
 }
 
+restartButton.addEventListener('click', () => {
+    currentQuestionIndex = 0;
+    myQuestionCount = 0;
+    score = 0;
+    timeLeft = 60 * 60;
+    timerButton.textContent = timeLeft;
+    questionArea.style.display = 'block';
+    submitButton.style.display = 'flex';
+    resultsContainer.style.display = 'none';
+    restartButton.style.display = 'none';
+    QuestionReset();
+    startTimer();
+    loadQuestion();
+});
+
 // 8. Add event listeners
 submitButton.addEventListener('click', checkAnswer);
 nextButton.addEventListener('click', nextQuestion);
@@ -3039,3 +3055,4 @@ startButton.addEventListener('click', () => {
     startButton.style.display = 'none';
 
 });
+
