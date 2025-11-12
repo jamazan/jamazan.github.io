@@ -73,7 +73,8 @@
  }
 
  button {
-    font-size: 1.1em;
+    font-size: 0.9em;
+    background-color: #015dc0;
  }
 
  button:hover {
@@ -118,6 +119,7 @@
      font-weight: bold;
      color: black;
  }
+
 
 
 
