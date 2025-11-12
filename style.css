@@ -72,9 +72,13 @@
 
  button {
     font-size: 1.2em;
+    margin-top: 20px;
+    padding: 10px 15px;
     background-color: #015dc0;
-    padding: 15px 30px;
-    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
  }
 
  button:hover {
@@ -120,6 +124,7 @@
      font-weight: bold;
      color: black;
  }
+
 
 
 
