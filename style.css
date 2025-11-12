@@ -73,17 +73,16 @@
  button {
     font-size: 0.9em;
     background-color: #015dc0;
-    margin-top: 20px;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    cursor: pointer; 
     font-weight: bold;
  }
 
  button:hover {
-    background-color: grey;
+   background-color: gray;
  }
+
  #submit,
  #next {
     display: none;
@@ -123,6 +122,7 @@
      font-weight: bold;
      color: black;
  }
+
 
 
 
