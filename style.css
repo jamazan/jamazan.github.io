@@ -73,14 +73,7 @@
  }
 
  button {
-    margin-top: 20px;
-    padding: 15px 30px;
-    background-color: #015dc0;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.2em;
+    font-size: 1.6em;
  }
 
  button:hover {
@@ -89,14 +82,7 @@
  #submit,
  #next {
     display: none;
-    margin-top: 20px;
-    padding: 15px 30px;
-    background-color: #015dc0;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.2em;     /* Hidden by default */
+    /* Hidden by default */
  }
 
  #results {
@@ -132,6 +118,7 @@
      font-weight: bold;
      color: black;
  }
+
 
 
 
