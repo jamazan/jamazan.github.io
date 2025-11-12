@@ -74,8 +74,6 @@
     font-size: 0.9em;
     background-color: #015dc0;
     padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
     font-weight: bold;
  }
 
@@ -122,6 +120,7 @@
      font-weight: bold;
      color: black;
  }
+
 
 
 
