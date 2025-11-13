@@ -3024,7 +3024,7 @@ function showResults() {
     questionArea.style.display = 'none';
     submitButton.style.display = 'none';
     nextButton.style.display = 'none';
-    if (finalResults > 70 ) {
+    if (finalResults >= 75 ) {
         document.getElementById('results').innerHTML = `Your score is: ${finalResultsRounded}% Congratulations, You passed!`;
     } else {
         document.getElementById('results').innerHTML = `Your score is ${finalResultsRounded}% You did not pass. Please try again.`;
@@ -3056,6 +3056,7 @@ startButton.addEventListener('click', () => {
     QuestionReset();
     startButton.style.display = 'none';
 });
+
 
 
 
