@@ -904,7 +904,7 @@ const myQuestions = [
     },
     {
         question: "Which of the following options describes an advantage of using KPI base searches in ITSI?",
-        option: {
+        options: {
             a: "KPI base searches are only available for out-of-the-box KPIs.",
             b: "KPI base searches cannot be customized or modified.",
             c: "KPI base searches allow real - time monitoring of services.",
@@ -981,7 +981,7 @@ const myQuestions = [
     },
     {
         question: "Which of the following options describes the role of the Glass Table Editor in ITSI?",
-        option: {
+        options: {
             a: "The Glass Table Editor is used to create and manage service templates.",
             b: "The Glass Table Editor is only accessible to ITSI administrators.",
             c: "The Glass Table Editor is used to customize the appearance and layout of glass tables.",
@@ -3056,6 +3056,7 @@ startButton.addEventListener('click', () => {
     QuestionReset();
     startButton.style.display = 'none';
 });
+
 
 
 
