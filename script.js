@@ -2974,6 +2974,7 @@ function loadQuestion() {
         submitButton.style.display = 'inline-block';
         nextButton.style.display = 'none';
     } else {
+        clearInterval(timerInterval);
         showResults();
     }
 }
@@ -3056,6 +3057,7 @@ startButton.addEventListener('click', () => {
     QuestionReset();
     startButton.style.display = 'none';
 });
+
 
 
 
