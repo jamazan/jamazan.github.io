@@ -2974,7 +2974,6 @@ function loadQuestion() {
         submitButton.style.display = 'inline-block';
         nextButton.style.display = 'none';
     } else {
-        clearInterval(timerInterval);
         showResults();
     }
 }
@@ -3031,6 +3030,7 @@ function showResults() {
         document.getElementById('results').innerHTML = `Your score is ${finalResultsRounded}% You did not pass. Please try again.`;
     }
     restartButton.style.display = 'inline-block';
+    clearInterval(timerInterval);
 }
 
 // 8. Add event listeners
@@ -3057,6 +3057,7 @@ startButton.addEventListener('click', () => {
     QuestionReset();
     startButton.style.display = 'none';
 });
+
 
 
 
